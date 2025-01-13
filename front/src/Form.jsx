@@ -20,7 +20,7 @@ function Form() {
     const formData = new FormData();
     formData.append("file", file);
     try {
-      const response = await axios.post("http://localhost:4000/classify", formData, {
+      const response = await axios.post("https://documentclassifier.onrender.com/classify", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
