@@ -33,7 +33,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/document-classifier.git
+git clone https://github.com/jaisman/documentclassifier.git
 cd document-classifier
 Set up the backend:
 If using Python:
