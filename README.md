@@ -55,24 +55,6 @@ The backend processes the file and passes its content to the classification mode
 
 The predicted category is sent back and displayed to the user.
 
-📁 File Structure
-javascript
-Copy
-Edit
-document-classifier/
-│
-├── frontend/
-│   └── index.html
-│   └── style.css
-│   └── script.js
-│
-├── backend/
-│   └── app.py
-│   └── model.pkl
-│   └── utils.py
-│
-├── requirements.txt
-└── README.md
 ⚠️ Limitations
 Only supports .txt files.
 
